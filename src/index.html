@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Tarefas</title>
+</head>
+<body>
+    <div>
+      <h1>Coisas para fazer</h1>
+      <form action="" class="to-do-form">
+        <input type="text" name="description" placeholder="Escreva sua tarefa aqui" required>
+        <button type="submit" class="form-button">
+          <img src="images/icons/plus.svg">
+        </button>
+      </form>
+      <div id="task">
+      <div class="task">
+        <input type="checkbox" name="progress" class="progress">
+
+        <p class="task-description">Tarefa de casa</p>
+
+        <div class="task-actions">
+          <a href="" class="action-button edit-button">
+            <img src="images/icons/pencil-square.svg">
+          </a>
+          <a href="" class="action-button delete-button">
+            <img src="images/icons/trash-can.svg" alt="">
+          </a>
+        </div>
+
+        <form action="" class="to-do-form edit-task">
+          <input type="text" name="description" placeholder="Edite sua tarefa aqui">
+          <button type="submit" class="form-button confirm-button">
+            <img src="images/icons/check.svg">
+          </button> 
+        </form>
+      </div>
+      </div>
+    </div>
+</body>
+</html>
