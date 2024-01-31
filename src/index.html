@@ -4,9 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lista de Tarefas</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div>
+    <div id="to_do">
       <h1>Coisas para fazer</h1>
       <form action="" class="to-do-form">
         <input type="text" name="description" placeholder="Escreva sua tarefa aqui" required>
@@ -29,7 +30,7 @@
           </a>
         </div>
 
-        <form action="" class="to-do-form edit-task">
+        <form action="" class="to-do-form edit-task hidden">
           <input type="text" name="description" placeholder="Edite sua tarefa aqui">
           <button type="submit" class="form-button confirm-button">
             <img src="images/icons/check.svg">
