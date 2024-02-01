@@ -88,6 +88,11 @@ body{
   margin-right: 10px;
 }
 
+.task .progress.done + .task-description{
+  text-decoration: line-through;
+  color: #f0f0f0cc;
+}
+
 .task .task-actions{
   display: flex;
   gap: 10px;
